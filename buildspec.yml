@@ -24,7 +24,7 @@ phases:
             - echo "Build Activity is completed"
             - echo "Run Basic check whether Website is ready for use"
             - grep -Fq "AWS Certified DevOps Engineer" index.html
-            - echo "Hello Test was successful"
+            - echo "Test was successful"
             - echo "proceed with next steps"
     post_build:
         commands:
